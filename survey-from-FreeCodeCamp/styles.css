@@ -1,0 +1,32 @@
+main {
+    display:flex;
+  }
+  
+  input {
+    width:100%;
+    margin:4px 0;
+    border: 1px solid grey;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+  }
+  
+  label {
+    font-size: 1.05rem;
+  }
+  
+  .radios {
+    width: 10px;
+  }
+  
+  .radio-and-button {
+    align-content:center;
+  }
+  
+  input[type="checkbox"] {
+    width:auto;
+    margin: 5px;
+  }
+
+.check-and-text > label {
+    padding-right: auto;
+}
