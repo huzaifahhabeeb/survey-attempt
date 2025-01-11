@@ -1,32 +1,50 @@
+header {
+  text-align: center;
+}
+
 main {
-    display:flex;
-  }
-  
-  input {
-    width:100%;
-    margin:4px 0;
-    border: 1px solid grey;
-    border-radius: 0.25rem;
-    padding: 0.25rem;
-  }
-  
-  label {
-    font-size: 1.05rem;
-  }
-  
-  .radios {
-    width: 10px;
-  }
-  
-  .radio-and-button {
-    align-content:center;
-  }
-  
-  input[type="checkbox"] {
-    width:auto;
-    margin: 5px;
-  }
+  display:flex;
+}
+
+input {
+  width:100%;
+  margin:4px 0;
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+label {
+  font-size: 1.05rem;
+}
+
+.radios {
+  width: 10px;
+}
+
+.radio-and-button {
+  align-content:center;
+}
+
+input[type="checkbox"] {
+  width:auto;
+  margin: 5px;
+}
 
 .check-and-text > label {
     padding-right: auto;
+}
+
+textarea {
+  border: 2px solid grey;
+  min-width: 100%;
+}
+
+input[type="submit"] {
+  /* display: flex;
+  flex-direction: column; */
+  border: 2px solid black;
+  min-width: 100px;
+  width: auto;
+  text-align: center;
 }
